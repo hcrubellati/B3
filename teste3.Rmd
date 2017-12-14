@@ -1,0 +1,84 @@
+---
+title: "Detecção de Fraudes"
+author: "Grupo da Frente"
+date: "14 de dezembro de 2017"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Case: Venda pela Internet
+
+
+Durante a venda, a empresa te cede um crédito, por isso há duas hipóteses
+
+- A compra é uma fraude
+-- Erro tipo 1: Não era fraude (~3%)
+- A compra não é uma fraude
+-- Erro tipo 2: era fraude (?) 
+
+aprox. 300 mil planos no mês
+
+## Quais São os desafios da empresa?
+
+- Não Perder os clientes que não são fraudadores
+- Minimizar o potencial de perda e maximizar o lucro
+- Como levantar estes dados não invasiva
+- Como reter estas informações
+
+## Quais as Bases de Dados Necessárias?
+
+- Score do bureau de credito
+- Georeferencia
+- Redes Sociais
+- Ultimos gastos com cartões
+
+## Quais Informações que eu preciso?
+
+- CPF 
+- Endereço
+- Idade
+- Sexo
+- Historico de Atividades
+
+## Quais os possiveis metodos
+
+- Validar a Identidade
+- Validar a Idoneidade
+- Comparar o perfil com os outros clientes
+- Gerar um score de credito
+
+## Qual seria o grupo de trabalho e o tempo estimado
+
+- de 6 meses a 1 ano para levantamento dos dados
+- 6 meses estruturar o modelo após acesso aos dados
+- de 3 a 6 meses de validação e produção
+- Total: entre 1 e 2 anos
+- Revisão a cada 2 anos
+- Um CDO parrudo e uma equipe de 4 pessoas
+
+## Data Science Lab
+
+- Primeiros Passos
+--Testar a aceitação da informação no mercado
+--Como gerar valor sobre os dados
+
+- Tempo Para amuderecer
+--2 anos de análise de mercado
+--1 ano de construção de modelos
+--1 ano de validação e produção
+
+- Qual a primeira preocupação?
+--Qualidade do dado
+--Segurança da Informação
+--Questões legais
+--Aceitação do mercado
+
+- Quantas pessoas devo contratar?
+--3 infraestrutura
+--1 Produteiro/Comercial
+--1 'Data Scientist'
+-- Acelerador CDO
+
